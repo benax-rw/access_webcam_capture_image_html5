@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Webcam Preview & Image Capture by CodexWorld</title>
+<meta charset="utf-8">
+
+<!-- JS library -->
+<script src="js/webcam.js" async></script>
+
+<!-- Stylesheet file -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Webcam Preview & Image Capture</h1>
+    
+    <p><span id="errorMsg"></span></p>
+    
+    <!-- Stream video via webcam -->
+    <div class="video-wrap">
+        <video id="video" playsinline autoplay></video>
+    </div>
+    
+    <!-- Trigger canvas web API -->
+    <div class="controller">
+        <button id="snap">Capture</button>
+    </div>
+    
+    <!-- Webcam video snapshot -->
+    <canvas id="canvas" width="640" height="480"></canvas>
+</div>
+</body>
+</html>

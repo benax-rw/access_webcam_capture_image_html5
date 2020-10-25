@@ -1,0 +1,46 @@
+.container {
+    margin: 0 auto 0 auto;
+    max-width: 60em;
+    padding: 1em 1.5em 1.3em 1.5em;
+}
+h1 {
+    border-bottom: 1px solid #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #666;
+    margin: 0 0 0.8em 0;
+    padding: 0 0 0.2em 0;
+    text-align: center;
+}
+p {
+    color: #444;
+    font-weight: 300;
+}
+video {
+    background: #222;
+    margin: 0 0 20px 0;
+    width: 100%;
+    /*width: var(--width);*/
+    height: calc(var(--width) * 0.75);
+}
+
+button {
+    margin: 0 3px 10px 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: auto;
+    cursor: pointer;
+}
+button {
+    background-color: #d84a38;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin: 0 0 1em 0;
+    padding: 0.5em 0.7em 0.5em 0.7em;
+}
+
+button#snap{background-color: #d60404;}
